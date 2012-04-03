@@ -2,4 +2,4 @@ BMI Kalkulator
 
 Aplikacija koja racuna BMI-Body Mass Index. Uneti tezinu i visinu(u metrima npr. 1,8) i klikom na dugme prikazuje se Vas BMI i tezinsko stanje.
 
-Skinuti jar file i lib folder koji se nalaze u dist folderu i pokrenuti jar file.
+Skinuti dist.zip i raspakovati i pokrenuti jar file.
