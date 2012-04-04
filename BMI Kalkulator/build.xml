@@ -71,4 +71,11 @@
     nbproject/build-impl.xml file. 
 
     -->
+	<target name="-post-jar">  
+  <jar jarfile="${dist.jar}" update="true">  
+   <zipfileset src="${dist.jar}" includes="**/*.class" />  
+   <zipfileset src="dist/lib/AbsoluteLayout.jar" includes="**/*.class"/>  
+  </jar>  
+ </target> 
+
 </project>
